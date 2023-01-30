@@ -56,14 +56,7 @@ color: aliceblue;
     color: rgb(238, 184, 47);
 }
 
-.offcanvas{
-    position: relative;
-    bottom: -180px;
-    display: inline;
-left: 0px;
-height: auto;
 
-}
 
 hr{
     color: black;
