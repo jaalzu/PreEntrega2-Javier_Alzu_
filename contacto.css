@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0px;
+   
+}
+ 
+.contenido{
+    margin: 30px;
+    box-shadow: 2px 1px 14px 4px black;
+
+}
+
+header{
+    background-color: black;
+}
+
+img{
+color: #fff;
+overflow: hidden;
+background-size: cover;
+
+}
+
+
+.logo-header{
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 100px;
+position: absolute;
+top: -20px;
+padding: 10px;
+}
+
+.nav-item a{
+   font-size: 17px;
+    align-content: space-around;
+color: aliceblue;
+margin: 3px;
+padding: 3px;
+}
+
+.nav-item a:hover{
+    color: rgb(245, 186, 38);
+}
+
+.nav-item i{
+    position: relative;
+    left: 25px;
+color: aliceblue;
+}
+
+
+.nav-item i:hover{
+    color: rgb(238, 184, 47);
+}

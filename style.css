@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+
+
+
+
+.logo-header{
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 100px;
+position: absolute;
+top: -20px;
+padding: 10px;
+}
+
+.nav-item a{
+   font-size: 17px;
+    align-content: space-around;
+color: aliceblue;
+margin: 3px;
+padding: 3px;
+}
+
+.nav-item a:hover{
+    color: rgb(245, 186, 38);
+}
+
+.nav-item i{
+    position: relative;
+    left: 25px;
+color: aliceblue;
+}
+
+
+.nav-item i:hover{
+    color: rgb(238, 184, 47);
+}
+
+.carousel-inner > img{
+    height: 60rem;
+
+}
+
+.presentacion{
+    text-align: start;
+line-height: 2em;
+}
+
+.presentacion img{
+    position: relative;
+    left: -100px;
+}
+
+.text-present p{
+    position: relative;
+top: 100px;
+align-items: center;
+}
+
+
+#galeria img{
+    width: 85%;
+   
+}
+
+#galeria .col-lg-6{
+    margin: 0;
+    padding: 25px;
+}
+
+.text-present p{
+    color: white;
+    font-size: 23px;
+}
+
+
+#galeria{
+    background-color: black;
+}
+
+h2{
+    color: white;
+}
+
+#galeria p{
+    position: absolute;
+    left: 22%;
+    
+}
+#galeria .p2{
+    position: absolute;
+    left: 72%;
+    
+}
+
+
+figcaption{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+color: white;
+
+}
+
+
+
+.footer-nav{
+    width: 100%;
+    background-color: black;
+
+}
+
+
+.footer-nav .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.footer-nav .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-nav .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+position: relative;
+right: 10px;
+}
+
+.footer-nav .grupo1 .box p{
+    color: #efefef;
+margin-bottom: 10px;
+position: relative;
+right: 10px;
+}
+
+
+.footer-nav img{
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    min-height: 150px;
+    position: relative;
+    right: 180px;
+}
+
+#redes-sociales a{
+    font-size: 25px;
+    width: 55px;
+    height: 5px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+ transition: all 300ms ease;
+}
+#redes-sociales a:hover{
+    color: aqua;
+}
+
+
+
+.footer-nav .grupo2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+ 
+}
+
+.footer-nav .grupo2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .footer-nav .grupo1{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    .footer-nav img{
+        width: auto;
+        height: auto;
+        max-width: 150px;
+        min-height: 150px;
+        position: relative;
+        right: 10px;
+
+ 
+    
+    }
+    .footer-nav .grupo1 .box .text-nosotros{
+        color: white;
+        margin-bottom: 25px;
+        font-size: 20px;
+    position: relative;
+    right: -140px;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width:400px){
+    #redes-sociales a{
+        font-size: 25px;
+        width: 55px;
+        height: 15px;
+        padding: 0px;
+       
+    position: relative;
+    left: -20px;
+     transition: all 300ms ease;
+    }
+    .text-redes{
+        position: relative;
+        left: -80px;
+    }
+    .text-present p{
+        position: relative;
+    top: 5px;
+    align-items: start;
+    }
+   
+}
+
+  
+    
+    #redes-sociales .fa-facebook{
+        color: blue;
+    position: relative;
+    top: 25px;
+text-decoration: none;    
+}
+    
+    #redes-sociales .fa-twitter{
+        position: relative;
+        color: rgb(9, 162, 182);
+    top: 25px;
+text-decoration: none;    
+}
+    
+    #redes-sociales .fa-instagram{
+        position: relative;
+        color: orangered;
+    top: 25px;
+text-decoration: none;   
+}
+    
+    #redes-sociales .fa-youtube{
+        position: relative;
+    color: red;
+    top: 30px;
+text-decoration: none;   
+}
+
+
+
+
+
+/* 
+.img-footer{
+    width: 200px;
+    position: absolute;
+   left: 0%;
+}
+
+footer{
+    padding: 20px ;
+    overflow: hidden;
+    background-color: black;
+  margin: 0px;
+  
+  }
+  
+  .logofooter{
+      width: 11%;
+      position: relative;
+      overflow: hidden;
+  }
+  
+  .copyright{
+      font-size: 20px;
+  color: white;
+  }
+  
+  h4{
+      font-size: 19px;
+      font-weight: 300;
+      margin-bottom: 40px;
+  display: inline-block;
+  }
+  
+  #redes-sociales{
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+  width: 5px;
+  height: 5px;
+  padding: 10px;
+  position: relative;
+  bottom: 20px;
+  }
+  
+  h5{
+    margin-top: 10px;
+    color: white;
+  }
+  
+  #redes-sociales .fa-facebook{
+      color: blue;
+  position: relative;
+  top: 25px;
+  }
+  
+  #redes-sociales .fa-twitter{
+      position: relative;
+      color: rgb(9, 162, 182);
+  top: 25px;
+  }
+  
+  #redes-sociales .fa-instagram{
+      position: relative;
+      color: orangered;
+  top: 25px;
+  }
+  
+  #redes-sociales .fa-youtube{
+      position: relative;
+  color: red;
+  top: 30px;
+  }
+   
